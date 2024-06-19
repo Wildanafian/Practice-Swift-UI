@@ -11,7 +11,7 @@ import SwiftUI
 struct practice_swift_uiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(isLogin: false)
         }
     }
 }

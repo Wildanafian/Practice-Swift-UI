@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  practice swift ui
+
+  Created by Wildan on 03/05/24.
+  
+*/
+
+"username" = "Username";
+"password" = "Pasword";
+"login" = "Login";
+"project" = "Project";
+"latestSprint" = "Latest Sprint";
+"sprintReview" = "Sprint Review";
+"sprintRetro" = "Sprint Retro";
+"task" = "Task";
+"chooseDate" = "Choose Date";
+"dateFilter" = "Date Filter";
+
+
+"hint.inputUsername" = "Masukkan Username";
+"hint.inputPassword" = "Masukkan Pasword";

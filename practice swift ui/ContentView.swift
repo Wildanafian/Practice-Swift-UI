@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isLogin = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if !isLogin {
+            LoginView(isLogin: $isLogin)
+//                .transition(AnyTransition.scale.animation(.easeInOut(duration: 0.3)))
+        } else {
+            MainTabBarView(isLogin: $isLogin)
+//                .transition(AnyTransition.scale.animation(.easeInOut(duration: 0.3)))
         }
-        .padding()
     }
 }
 
